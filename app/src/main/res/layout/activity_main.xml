@@ -42,4 +42,68 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:text="✨  SHADERS"/
+            android:text="✨  SHADERS"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="📦  MODPACKS"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="⚙️  SETTINGS"/>
+
+    </LinearLayout>
+
+    <!-- MAIN AREA -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GARUDAX LAUNCHER"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minecraft Mobile"
+            android:textColor="#AAAAAA"
+            android:textSize="16sp"
+            android:layout_marginBottom="30dp"/>
+
+        <Spinner
+            android:layout_width="300dp"
+            android:layout_height="55dp"/>
+
+        <Spinner
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:text="▶  PLAY MINECRAFT"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🧩 Mods     ✨ Shaders     📦 Modpacks"
+            android:textColor="#CCCCCC"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
